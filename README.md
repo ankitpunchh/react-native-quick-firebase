@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Stable-v1.1.4-green.svg?style=flat)
 ![](https://img.shields.io/badge/RN-v0.65.x+-orange.svg?style=flat)
 
-Firebase simple integration with phone auth and analytics only.
+Firebase is simple integration with phone auth and analytics only.
 
 Implementation in React Native project
 

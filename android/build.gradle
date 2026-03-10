@@ -10,6 +10,7 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.facebook.react'
 
 def DEFAULT_COMPILE_SDK_VERSION             = 34
 def DEFAULT_MIN_SDK_VERSION                 = 23

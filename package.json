@@ -25,7 +25,9 @@
     "index.js",
     "src/",
     "ios/",
-    "android/"
+    "android/",
+    "RNQuickFirebase.podspec",
+    "tsconfig.json"
   ],
   "peerDependencies": {
     "react": "*",

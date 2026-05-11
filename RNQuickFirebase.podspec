@@ -1,6 +1,6 @@
 require 'json'
 
-package = JSON.parse(File.read('../package.json'))
+package = JSON.parse(File.read('package.json'))
 
 Pod::Spec.new do |s|
   s.name           = 'RNQuickFirebase'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform       = :ios, '13.0'
 
   s.preserve_paths = 'LICENSE', 'README.md', 'package.json', 'index.js'
-  s.source_files   = '*.{h,mm}'
+  s.source_files   = 'ios/*.{h,mm}'
 
   s.dependency 'Firebase/Core'
   s.dependency 'FirebaseAnalytics'
